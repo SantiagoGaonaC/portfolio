@@ -1,0 +1,97 @@
+{
+  "name": "Santiago Gaona",
+  "position": "Ingeniero de Sistemas e Informática",
+  "minimal-description": "Diseño soluciones FullStack escalables, enfocadas en CI/CD y cloud",
+  "works": [
+    {
+      "company": "Biopack GLOBAL",
+      "href": "https://g.co/kgs/Gwsx7x",
+      "position": "Desarrollador de soporte",
+      "from": "2017-12",
+      "to": "2018-04",
+      "description": "Me especializo en el desarrollo web de sitios de comercio, brindando soporte en las aplicaciones utilizadas en dichos sitios. Mi trabajo también incluye la creación y manejo de bases de datos, así como la ejecución de pruebas orientadas al desarrollo web. Además, ofrezco atención al público, asegurando una experiencia de usuario óptima y eficiente.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Centro Comercial San Bazar",
+      "href": "https://g.co/kgs/g3M6S7",
+      "position": "Desarrollador de software",
+      "from": "2018-10",
+      "to": "2020-11",
+      "description": "Me dedico al desarrollo del Sistema de gestión utilizando JavaScript y Node.js, y brindo soporte en la base de datos MySQL. También me encargo del soporte de sistemas de inventarios y aplicaciones de pago, así como de la documentación de inventario. Mi rol incluye el soporte técnico en dispositivos como racks de servidores, dispositivos móviles y computadoras. Adicionalmente, contribuyo en el soporte para el desarrollo de la nueva web y app.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Linux",
+        "Git"
+      ]
+    },
+    {
+      "company": "Decathlon Colombia",
+      "href": "https://www.decathlon.com.co/",
+      "position": "Servicios IT & Asesor",
+      "from": "2022-03",
+      "to": "2022-11",
+      "description": "Encargado de mantener operativos los dispositivos y plataformas tecnológicas asociadas a los dispositivos de facturación en la tienda Decathlon Bucaramanga, contribuyendo activamente al desarrollo de la empresa. Labor incluye la administración de bases de datos SQL y NoSQL, enfocado en la operatividad de los sistemas de información. También ofreciendo asesoría comercial a proveedores, clientes y empleados.",
+      "tech": [
+        ".NET",
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "POS",
+        "ERP",
+        "CRM"
+      ]
+    },
+    {
+      "company": "PriceWaterhouseCoopers (PwC) Colombia",
+      "href": "https://www.pwc.com/co/es/nuestros-servicios/consultoria/intelligent-process-automation.html",
+      "position": "Consultor de tecnología",
+      "from": "2022-11",
+      "to": "2023-08",
+      "description": "Especializado en el análisis de requerimientos y la gestión de proyectos, con un enfoque en la implementación de soluciones de automatización, incluyendo RPA e IPA. Rol implica el desarrollo de software para satisfacer necesidades de los clientes. Participo en procesos de pruebas y validación para asegurar la calidad y funcionalidad de aplicaciones y procesos automatizados. Brindo capacitación y asesoramiento a clientes finales y a otros miembros del equipo. Responsable de la integración de sistemas para garantizar operaciones correctamente implementadas, proporciono mantenimiento y soporte técnico, resolviendo problemas y optimizando aplicaciones y procesos en curso",
+      "tech": [
+        ".NET",
+        "Visual Basic",
+        "SQL",
+        "Azure DevOps",
+        "RPA & IPA",
+        "Git",
+        "PowerApps"
+      ]
+    },
+    {
+      "company": "Freelance (Self employed)",
+      "href": "https://www.linkedin.com/in/santiago-gaona-carvajal/",
+      "position": "FullStack Developer",
+      "from": "2023-08",
+      "to": "Presente",
+      "description": "Creación de sistemas distribuidos basados en microservicios, empleando tecnologías como Graphql, Rest y SOAP para garantizar una comunicación efectiva y eficiente entre los componentes del sistema. Además, Especializado en el desarrollo de aplicaciones multiplataforma, adaptándome a distintos entornos y dispositivos para ofrecer soluciones integrales y accesibles.",
+      "tech": [
+        "NextJS",
+        "Node",
+        "TypeScript",
+        "Go",
+        ".NET",
+        "IaC",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "DevOps",
+        "Flutter"
+      ]
+    }
+  ]
+}
