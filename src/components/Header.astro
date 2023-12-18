@@ -1,5 +1,6 @@
 ---
 import data from "../data.json";
+import Nav from "./Nav.svelte";
 ---
 
 <header
@@ -9,12 +10,13 @@ import data from "../data.json";
 		<h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
 			<a href="/">{data.name}</a>
 		</h1>
-		<h1
+		<h2
 			class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"
 		>
 			{data.position}
-		</h1>
+		</h2>
 		<p class="mt-4 max-w-xs leading-normal">{data["minimal-description"]}</p>
+		<Nav client:only />
 	</div>
 	<ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
 		<li class="mr-5 text-xs">
@@ -81,3 +83,19 @@ import data from "../data.json";
 		</li>
 	</ul>
 </header>
+
+<style is:global>
+	/* 
+	Unicamente para Nav.svelte
+	Estilos para nav-indicator cuando su elemento padre tiene la clase active */
+	.nav a.active .nav-indicator {
+		width: 4rem; /* Ajusta el ancho */
+		background-color: rgb(226 232 240); /* Color de fondo */
+		transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1); /* Transición */
+	}
+
+	/* Estilos para nav-text cuando su elemento padre tiene la clase active */
+	.nav a.active .nav-text {
+		color: rgb(226 232 240); /* Color del texto */
+	}
+</style>
