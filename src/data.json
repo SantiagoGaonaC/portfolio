@@ -100,7 +100,7 @@
       "description": "Sistema multiplataforma de almacenamiento distribuido, con tecnologías como REST, SOAP y microservicios.",
       "href": "https://github.com/hawks-atlanta",
       "alt": "",
-      "src": "/src/images/capy-file.png",
+      "src": "/images/capy-file.png",
       "tech": [
       "React",
       "TypeScript",
@@ -121,7 +121,7 @@
       "description": "Sistema multiplataforma UPB a nivel nacional, para la orientación y acompañamiento a estudiantes de pregrado sobre sus asignaturas.",
       "href": "https://github.com/orgs/ateneo-upb/repositories",
       "alt": "",
-      "src": "/src/images/UPB.png",
+      "src": "/images/UPB.png",
       "tech": [
       "React",
       "NextJS",
