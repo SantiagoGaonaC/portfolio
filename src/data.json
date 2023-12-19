@@ -93,5 +93,287 @@
         "Flutter"
       ]
     }
-  ]
+  ],
+  "projects": [
+    {
+      "title": "CapyFile",
+      "description": "Sistema multiplataforma de almacenamiento distribuido, con tecnologías como REST, SOAP y microservicios.",
+      "href": "https://github.com/hawks-atlanta",
+      "alt": "",
+      "src": "/src/images/capy-file.png",
+      "tech": [
+      "React",
+      "TypeScript",
+      ".NET",
+      "Java",
+      "Go",
+      "Kubernetes",
+      "Terraform",
+      "REST",
+      "SOAP",
+      "Flutter",
+      "Scala",
+      "Git"
+      ]
+    },
+    {
+      "title": "Ateneo",
+      "description": "Sistema multiplataforma UPB a nivel nacional, para la orientación y acompañamiento a estudiantes de pregrado sobre sus asignaturas.",
+      "href": "https://github.com/orgs/ateneo-upb/repositories",
+      "alt": "",
+      "src": "/src/images/UPB.png",
+      "tech": [
+      "React",
+      "NextJS",
+      "Flutter",
+      ".NET",
+      "Docker",
+      "IaC",
+      "Kubernetes",
+      "Terraform",
+      "PostgreSQL",
+      "Git"
+      ]
+    }
+    ],
+    "archive":[
+      {
+        "year": "2021",
+        "project": "Agrodinas",
+        "MadeAt":"UPB",
+        "tech": [
+          ".NET",
+          "MySQL",
+          "Linux"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/Agrodinas",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2022",
+        "project": "PartsCO",
+        "MadeAt":"UPB",
+        "tech": [
+          "JavaScript",
+          "EJS",
+          "CSS",
+          "Linx",
+          "OS",
+          "Networking",
+          "MVC",
+          "Node.js",
+          "Boostrap",
+          "CISCO",
+          "Express",
+          "JWT"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/PartsCO/blob/main/Documentos/Manual_Usuario_PartsCO.pdf",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2022",
+        "project": "Movie Binge Assistant",
+        "MadeAt":"UPB",
+        "tech": [
+          "Python",
+          "DJango",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Boostrap",
+          "Express",
+          "JWT"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/Movie-Binge-Assistant/blob/main/ManualDeUsuario.pdf",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-1",
+        "project": "Máster en Programación y Diseño de Software",
+        "MadeAt":"EscuelaIT",
+        "tech": [
+          "Patrones",
+          "TDD",
+          "Refactoring",
+          "Cloud",
+          "RUP",
+          "Scrum",
+          "IaC",
+          "Arquitectura",
+          "Kubernetes",
+          "Microservicios",
+          "Seguridad"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/software-engineering-master-escuelait",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-1",
+        "project": "Movie Watch",
+        "MadeAt":"UPB",
+        "tech": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Docker",
+          "Arquitectura",
+          "MongoDB",
+          "Express"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/Movie-Watch",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-1",
+        "project": "RecipeDiary",
+        "MadeAt":"UPB",
+        "tech": [
+          "Flutter",
+          "Express",
+          "Node",
+          "JavaScript",
+          "Azure",
+          "Docker",
+          "MongoDB",
+          "Linux",
+          "JWT"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/RecipeDiary/blob/main/RecipeDiary.pdf",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-1",
+        "project": "Weather UI",
+        "MadeAt":"Upstatement",
+        "tech": [
+          ".NET",
+          "JavaScript",
+          "React",
+          "Tailwind",
+          "Docker"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/Weather-APP",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-2",
+        "project": "Gateway Placetopay",
+        "MadeAt":"Evertec",
+        "tech": [
+          ".NET",
+          "Docker",
+          "JWT"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/gateway-placetopay/blob/main/DiagramaDeFlujoProcesoDePago.png",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-2",
+        "project": "Epic Organizer Backend",
+        "MadeAt":"Upstatement",
+        "tech": [
+          "TypeScript",
+          "Node",
+          "MongoDB",
+          "Express",
+          "MVC",
+          "Mailer",
+          "JWT",
+          "Zod"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/epic-organizer-backend",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-2",
+        "project": "Epic Organizer Frontend",
+        "MadeAt":"Upstatement",
+        "tech": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node",
+          "NextJS",
+          "TypeScript",
+          "Tailwind",
+          "Zod"
+        ],
+        "Link": "https://github.com/SantiagoGaonaC/epic-organizer-frontend",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-8",
+        "project": "Proxy .NET",
+        "MadeAt":"UPB",
+        "tech": [
+          ".NET",
+          "Docker",
+          "JavaScript",
+          "SOAP",
+          "Rest",
+          "Microservicios"
+        ],
+        "Link": "https://github.com/hawks-atlanta/proxy-net",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-8",
+        "project": "Client CapyFile",
+        "MadeAt":"UPB",
+        "tech": [
+          "Flutter",
+          "JWT",
+          "Microservicios",
+          "Secure",
+          "Rest",
+          "Docker"
+        ],
+        "Link": "https://github.com/hawks-atlanta/frontend-flutter",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-8",
+        "project": "CapyFile / Hawks-Atlanta",
+        "MadeAt":"UPB",
+        "tech": [
+          "Infrastructure",
+          "React",
+          ".NET",
+          "Go",
+          "Java",
+          "Scala",
+          "Microservicios"
+        ],
+        "Link": "https://github.com/orgs/hawks-atlanta/repositories",
+        "NameLink": "Github"
+      },
+      {
+        "year": "2023-09",
+        "project": "Centro Incubación de Empresarial",
+        "MadeAt":"Upstatement",
+        "tech": [
+          "RUP"
+        ],
+        "Link": "",
+        "NameLink": ""
+      },
+      {
+        "year": "2023-10",
+        "project": "Ateneo",
+        "MadeAt":"UPB",
+        "tech": [
+          "NextJS",
+          "React",
+          "TypeScript", 
+          "PostgreSQL",
+          ".NET",
+          "Docker",
+          "Kubernetes",
+          "JWT",
+          "Flutter"
+        ],
+        "Link": "https://github.com/ateneo-upb",
+        "NameLink": "Github"
+      }
+    ]
 }

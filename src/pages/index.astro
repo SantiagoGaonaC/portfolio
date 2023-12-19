@@ -1,5 +1,12 @@
 ---
+import Header from "../components/Header.astro";
+import Main from "../components/Main.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Santiago Gaona Carvajal" />
+<Layout title="Santiago Gaona Carvajal">
+	<div class="lg:flex lg:justify-between lg:gap-4">
+		<Header />
+		<Main />
+	</div>
+</Layout>

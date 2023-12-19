@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Skip from "../components/Archive/Skip.astro";
+import TitleArchive from "../components/Archive/TitleArchive.astro";
+import TableProjects from "../components/Archive/TableProjects.astro";
+import data from "../data.json";
+---
+
+<Layout title="Proyectos Santiago Gaona">
+	<a
+		href="#content"
+		class="absolute left-0 top-0 block -translate-x-full rounded bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppercase tracking-widest text-white focus-visible:translate-x-0"
+		>Skip to Content</a
+	>
+	<div class="lg:py-24">
+		<Skip />
+		<TitleArchive />
+		<TableProjects archive={data.archive} />
+	</div>
+</Layout>
