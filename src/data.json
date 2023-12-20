@@ -99,7 +99,7 @@
       "title": "CapyFile",
       "description": "Sistema multiplataforma de almacenamiento distribuido, con tecnologías como REST, SOAP y microservicios.",
       "href": "https://github.com/hawks-atlanta",
-      "alt": "",
+      "alt": "Creación de una aplicación multiplataforma para la subida de archivos a cloud",
       "src": "/images/capy-file.png",
       "tech": [
       "React",
@@ -120,7 +120,7 @@
       "title": "Ateneo",
       "description": "Sistema multiplataforma UPB a nivel nacional, para la orientación y acompañamiento a estudiantes de pregrado sobre sus asignaturas.",
       "href": "https://github.com/orgs/ateneo-upb/repositories",
-      "alt": "",
+      "alt": "Creación de una aplicación multiplataforma para la orientación y acompañamiento a estudiantes de pregrado sobre sus asignaturas",
       "src": "/images/UPB.png",
       "tech": [
       "React",
