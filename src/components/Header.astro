@@ -18,7 +18,7 @@ import PersonalImage from "../components/header/PersonalImage.astro";
 			{data.position}
 		</h2>
 		<p class="mt-4 max-w-xs leading-normal">{data["minimal-description"]}</p>
-		<Nav client:only />
+		<Nav client:load />
 	</div>
 	<div class="pt-10 lg:pt-0">
 		<PersonalImage />
