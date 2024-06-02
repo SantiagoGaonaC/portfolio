@@ -74,7 +74,7 @@
       "href": "https://www.linkedin.com/in/santiago-gaona-carvajal/",
       "position": "FullStack Developer",
       "from": "2023-08",
-      "to": "Presente",
+      "to": "2023-12",
       "description": "Creación de sistemas distribuidos basados en microservicios, empleando tecnologías como Graphql, Rest y SOAP para garantizar una comunicación efectiva y eficiente entre los componentes del sistema. Además, Especializado en el desarrollo de aplicaciones multiplataforma, adaptándome a distintos entornos y dispositivos para ofrecer soluciones integrales y accesibles.",
       "tech": [
         "NextJS",
@@ -91,6 +91,25 @@
         "Git",
         "DevOps",
         "Flutter"
+      ]
+    },
+    {
+      "company": "Habitanto",
+      "href": "https://habitanto.com",
+      "position": "FullStack Developer",
+      "from": "2024-01",
+      "to": "Presente",
+      "description": "Desarrollo de aplicaciones FullStack, con un enfoque en la creación de soluciones para la startup implementando AWS, basados en eventos y prácticas DevOps.",
+      "tech": [
+        "NextJS",
+        "Flutter",
+        "IaC",
+        "AWS",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "DevOps"
       ]
     }
   ],
