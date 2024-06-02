@@ -119,7 +119,7 @@
       "description": "Sistema multiplataforma de almacenamiento distribuido, con tecnologías como REST, SOAP y microservicios.",
       "href": "https://github.com/hawks-atlanta",
       "alt": "Creación de una aplicación multiplataforma para la subida de archivos a cloud",
-      "src": "/images/capy-file.png",
+      "src": "/images/capy-file.webp",
       "tech": [
       "React",
       "TypeScript",
