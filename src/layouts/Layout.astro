@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Main from "../components/Main.astro";
+import GoogleAnalytics from "../components/Analytics/GoogleAnalytics.astro";
 interface Props {
 	title: string;
 }
@@ -11,6 +12,8 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="en">
 	<head>
+		<!-- Google Analytics Code -->
+		<GoogleAnalytics />
 		<meta charset="UTF-8" />
 		<meta
 			name="description"
