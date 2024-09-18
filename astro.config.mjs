@@ -9,5 +9,7 @@ export default defineConfig({
   integrations: [tailwind(), svelte()],
 
   output: "server",
-  adapter: vercel()
+  adapter: vercel({imageService: false, webAnalytics: {
+    enabled: true,
+  },})
 });
