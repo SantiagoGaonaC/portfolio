@@ -3,27 +3,52 @@
 	let links;
 
 	onMount(() => {
+		const sections = new Map();
+		
 		const observer = new IntersectionObserver(
 			(entries) => {
 				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						links.forEach((link) => {
-							link.classList.toggle(
-								"active",
-								link.getAttribute("href") === `#${entry.target.id}`,
-							);
-						});
-					}
+					sections.set(entry.target.id, entry.isIntersecting);
 				});
+				
+				// Encuentra la primera sección visible
+				const visibleSections = Array.from(sections.entries())
+					.filter(([_, isVisible]) => isVisible);
+				
+				if (visibleSections.length > 0) {
+					const currentSection = visibleSections[0][0];
+					updateActiveLink(currentSection);
+				}
 			},
-			{ threshold: 0.5 },
+			{ 
+				threshold: [0, 0.25, 0.5, 0.75, 1],
+				rootMargin: "-100px 0px -66% 0px"
+			},
 		);
 
-		document.querySelectorAll("section").forEach((section) => {
+		function updateActiveLink(sectionId) {
+			links.forEach((link) => {
+				const href = link.getAttribute("href");
+				if (href === `#${sectionId}`) {
+					link.classList.add("active");
+				} else {
+					link.classList.remove("active");
+				}
+			});
+		}
+
+		const allSections = document.querySelectorAll("section[id]");
+		allSections.forEach((section) => {
+			sections.set(section.id, false);
 			observer.observe(section);
 		});
 
 		links = document.querySelectorAll(".nav a");
+		
+		// Cleanup
+		return () => {
+			observer.disconnect();
+		};
 	});
 </script>
 
