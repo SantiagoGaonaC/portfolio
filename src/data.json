@@ -94,11 +94,31 @@
       ]
     },
     {
+      "company": "EPAM Neoris",
+      "href": "https://epamneoris.com",
+      "position": "Cloud Engineer",
+      "from": "2024-10",
+      "to": "Presente",
+      "description": "Parte del equipo de arquitectura e infraestructura cloud para el sector bancario regional, implementando soluciones multinube en AWS y Azure. Enfocado en automatización de infraestructura, desarrollo de pipelines y módulos para cloud, y gestión de gobernanza, políticas de seguridad y alertas. Experiencia en IaC, CI/CD y optimización de recursos cloud.",
+      "tech": [
+        "AWS",
+        "Terraform (IaC)",
+        "EKS (Kubernetes)",
+        "Python",
+        "Node.js",
+        "CI/CD",
+        "CloudFormation",
+        "QuickSight",
+        "DevOps",
+        "Azure"
+      ]
+    },
+    {
       "company": "Habitanto",
       "href": "https://habitanto.com",
       "position": "FullStack Developer",
       "from": "2024-01",
-      "to": "Presente",
+      "to": "2024-10",
       "description": "Desarrollo de aplicaciones FullStack, con un enfoque en la creación de soluciones para la startup implementando AWS, basados en eventos y prácticas DevOps.",
       "tech": [
         "NextJS",
