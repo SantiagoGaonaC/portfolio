@@ -1,12 +1,15 @@
 import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from "@tailwindcss/vite";
 import svelte from "@astrojs/svelte"
 
 import vercel from "@astrojs/vercel";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), svelte()],
+  integrations: [svelte()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 
   output: "server",
   adapter: vercel({
@@ -14,6 +17,6 @@ export default defineConfig({
     webAnalytics: {
       enabled: true,
     },
-    runtime: "nodejs20.x"
+    runtime: "nodejs24.x"
   })
 });

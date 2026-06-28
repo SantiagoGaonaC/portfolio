@@ -1,47 +1,44 @@
-# Portfolio - Santiago Gaona Carvajal
+# Portfolio — Santiago Gaona Carvajal
 
+Personal portfolio built with Astro, Svelte, and Tailwind CSS.
 
+## Getting started
 
-> 🧑‍🚀 **Using Astro!** 
+Use Node 24 from `.nvmrc` before running pnpm commands to avoid engine warnings.
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+nvm use
+pnpm install
+pnpm dev
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+The local site runs at:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```text
+http://localhost:4321
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Commands
 
-## 🧞 Commands
+| Command | Action |
+| :-- | :-- |
+| `pnpm install` | Install dependencies |
+| `pnpm dev` | Start the local dev server |
+| `pnpm build` | Check and build the production site |
+| `pnpm astro ...` | Run Astro CLI commands |
 
-All commands are run from the root of the project, from a terminal:
+For local development, use `pnpm dev`. For production validation, use `pnpm build`; the Vercel adapter does not support `astro preview` for this server output setup.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Project structure
 
-## Inspired by 
-[Github BrittanyChiang](https://github.com/bchiang7)
-[Web BrittanyChiang](https://brittanychiang.com/)
+| Path | Purpose |
+| :-- | :-- |
+| `src/pages/` | Route entry points |
+| `src/components/` | Reusable UI components |
+| `src/layouts/` | Page layouts |
+| `public/` | Static assets |
 
+## Inspiration
+
+- [Brittany Chiang — GitHub](https://github.com/bchiang7)
+- [Brittany Chiang — Website](https://brittanychiang.com/)
