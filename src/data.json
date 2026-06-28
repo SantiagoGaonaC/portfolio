@@ -1,6 +1,6 @@
 {
   "name": "Santiago Gaona",
-  "position": "Ingeniero de Sistemas e Informática",
+  "position": "Ingeniero de Sistemas e Informática · Máster en Ingeniería de Software y Sistemas Informáticos",
   "minimal-description": "Diseño soluciones FullStack escalables, enfocadas en CI/CD y cloud",
   "works": [
     {
@@ -95,11 +95,25 @@
     },
     {
       "company": "EPAM Neoris",
-      "href": "https://epamneoris.com",
-      "position": "Cloud Engineer",
+      "href": "https://www.epam.com/",
+      "position": "Cloud Architect",
       "from": "2024-10",
       "to": "Presente",
-      "description": "Parte del equipo de arquitectura e infraestructura cloud para el sector bancario regional, implementando soluciones multinube en AWS y Azure. Enfocado en automatización de infraestructura, desarrollo de pipelines y módulos para cloud, y gestión de gobernanza, políticas de seguridad y alertas. Experiencia en IaC, CI/CD y optimización de recursos cloud.",
+      "description": "Parte del equipo de arquitectura e infraestructura cloud para el sector bancario regional, implementando soluciones multinube en AWS y Azure. Enfocado en diseño de arquitectura, gobierno cloud, seguridad, automatización de infraestructura, pipelines y optimización de recursos.",
+      "timeline": [
+        {
+          "from": "Oct 2024",
+          "to": "Ago 2025",
+          "role": "Cloud Engineer",
+          "description": "Automatización de infraestructura, CI/CD, módulos cloud y operación segura en entornos AWS y Azure."
+        },
+        {
+          "from": "Sep 2025",
+          "to": "Presente",
+          "role": "Cloud Architect",
+          "description": "Diseño de arquitectura cloud, gobierno, seguridad y evolución de soluciones multinube para banca regional."
+        }
+      ],
       "tech": [
         "AWS",
         "Terraform (IaC)",
@@ -109,6 +123,7 @@
         "CI/CD",
         "CloudFormation",
         "QuickSight",
+        "IA / Agents",
         "DevOps",
         "Azure"
       ]
