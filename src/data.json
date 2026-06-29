@@ -102,16 +102,16 @@
       "description": "Parte del equipo de arquitectura e infraestructura cloud para el sector bancario regional, implementando soluciones multinube en AWS y Azure. Enfocado en diseño de arquitectura, gobierno cloud, seguridad, automatización de infraestructura, pipelines y optimización de recursos.",
       "timeline": [
         {
-          "from": "Oct 2024",
-          "to": "Ago 2025",
-          "role": "Cloud Engineer",
-          "description": "Automatización de infraestructura, CI/CD, módulos cloud y operación segura en entornos AWS y Azure."
-        },
-        {
           "from": "Sep 2025",
           "to": "Presente",
           "role": "Cloud Architect",
           "description": "Diseño de arquitectura cloud, gobierno, seguridad y evolución de soluciones multinube para banca regional."
+        },
+        {
+          "from": "Oct 2024",
+          "to": "Ago 2025",
+          "role": "Cloud Engineer",
+          "description": "Automatización de infraestructura, CI/CD, módulos cloud y operación segura en entornos AWS y Azure."
         }
       ],
       "tech": [
