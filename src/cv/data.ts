@@ -52,6 +52,16 @@ export const cvData: CvData = {
 			tech: ["Next.js", "Flutter", "AWS", "PostgreSQL", "MongoDB", "Docker"],
 		},
 		{
+			company: "Freelance",
+			role: "Desarrollador FullStack",
+			period: "agosto de 2023 a enero de 2024",
+			highlights: [
+				"Entregué código robusto de producción para sistemas distribuidos y microservicios.",
+				"Colaboré en APIs GraphQL/REST/SOAP, accesibilidad, documentación y formación.",
+			],
+			tech: ["GraphQL", "Docker", "Valkey", "MongoDB"],
+		},
+		{
 			company: "PwC Colombia",
 			role: "Consultor de Tecnología",
 			period: "noviembre de 2022 a agosto de 2023",
@@ -115,7 +125,7 @@ export const cvData: CvData = {
 		{
 			group: "Agentes de IA",
 			items: [
-				"flujos agénticos",
+				"Flujos agénticos",
 				"herramientas LLM",
 				"diseño de automatización",
 				"entrega asistida por IA",
