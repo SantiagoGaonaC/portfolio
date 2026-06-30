@@ -24,3 +24,4 @@ pnpm-debug.log*
 # local AI tooling
 .atl/
 skills/
+openspec/
