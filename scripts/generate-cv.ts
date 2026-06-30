@@ -59,7 +59,7 @@ const layout = {
 	headBottom: 130,
 	main: {
 		x: 34,
-		y: 132,
+		minY: 122,
 		width: 348,
 		metaWidth: 70,
 		metaGap: 11,
@@ -73,8 +73,10 @@ const layout = {
 
 const contactToSideSectionGap = 9;
 const contactHeaderLineClearance = 15;
-const experienceHeadingBottomMargin = 6;
-const experienceItemGap = 10.4;
+const headlineToProfileGap = 8;
+const experienceHeadingBottomMargin = 2;
+const experienceItemGap = 4.25;
+const mainSummaryBottomMargin = 6;
 
 const spacing = {
 	contactValueGap: 4,
@@ -399,7 +401,12 @@ function renderHeader() {
 		Math.max(headlineY + headlineBlock.height, sideStartY, layout.headBottom),
 	);
 
-	return sideStartY;
+	const mainStartY = Math.max(
+		layout.main.minY,
+		headlineY + headlineBlock.height + headlineToProfileGap,
+	);
+
+	return { mainStartY, sideStartY };
 }
 
 function renderPlainHighlight(
@@ -494,15 +501,15 @@ function renderExperienceItem(
 	return y + itemHeight;
 }
 
-function renderMain() {
-	let y = layout.main.y;
+function renderMain(startY: number) {
+	let y = startY;
 	const summaryBlock = measureText(
 		cvData.profile.summary,
 		layout.main.width,
 		styles.summary,
 	);
 	drawTextBlock(summaryBlock, layout.main.x, y);
-	y += summaryBlock.height + 14;
+	y += summaryBlock.height + mainSummaryBottomMargin;
 	assertFits("profile", y);
 
 	y = sectionTitle(
@@ -748,9 +755,9 @@ function writePdf() {
 
 setDeterministicMetadata();
 registerFonts();
-const sideStartY = renderHeader();
-renderMain();
-renderSideSections(sideStartY);
+const headerStart = renderHeader();
+renderMain(headerStart.mainStartY);
+renderSideSections(headerStart.sideStartY);
 writePdf();
 
 console.log(`Generated ${outputPath}`);
