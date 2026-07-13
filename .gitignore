@@ -21,7 +21,8 @@ pnpm-debug.log*
 .DS_Store
 .vercel/
 
-# local AI tooling
+# local development tooling
 .atl/
+.codegraph/
 skills/
 openspec/

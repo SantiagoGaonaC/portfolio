@@ -48,10 +48,10 @@ const { title } = Astro.props;
 		});
 
 		function updateGradient(event: MouseEvent) {
-			var windowWidth = window.innerWidth;
-			var windowHeight = window.innerHeight;
-			var mouseXpercentage = Math.round((event.clientX / windowWidth) * 100);
-			var mouseYpercentage = Math.round((event.clientY / windowHeight) * 100);
+			const windowWidth = window.innerWidth;
+			const windowHeight = window.innerHeight;
+			const mouseXpercentage = Math.round((event.clientX / windowWidth) * 100);
+			const mouseYpercentage = Math.round((event.clientY / windowHeight) * 100);
 
 			const gradientDiv = document.querySelector(
 				".radial-gradient",
