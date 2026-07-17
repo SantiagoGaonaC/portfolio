@@ -3,15 +3,15 @@ import { Image } from "astro:assets";
 ---
 
 <div class="flex items-center justify-center">
-	<div class="group h-64 w-60 cursor-pointer [perspective:1500px] shadow-lg hover:shadow-2xl">
+	<div class="group size-64 cursor-pointer [perspective:1500px] shadow-lg hover:shadow-2xl">
 		<div
 			class="relative h-full w-full rounded-xl transition-all ease-in-out duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
 		>
 			<Image
 				alt="Foto de perfil de Santiago Gaona Carvajal"
 				src="/images/personal.webp"
-				class="rounded-xl object-cover"
-				width="240"
+				class="h-full w-full rounded-xl object-cover object-center"
+				width="256"
 				height="256"
 			/>
 			<div
